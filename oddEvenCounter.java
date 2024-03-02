@@ -20,13 +20,13 @@ public class oddEvenCounter {
         }
         if (bool) {
             System.out.println(even);
-        } else {
+        } else if(!bool) {
             System.out.println(odd);
         }
         else {
             System.out.println("Invalid input.");
         }
-
+        scanner.close();
     }
 
 }

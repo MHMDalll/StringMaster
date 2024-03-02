@@ -12,7 +12,7 @@ public class wordFinder {
         } else {
             System.out.println("Invalid input: Word not found.");
         }
-
+        scanner.close();
     }
 
 }

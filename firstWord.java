@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class firstWord {
@@ -23,8 +24,7 @@ public class firstWord {
                     System.out.print(c);
                 }
             }
-
         }
-
+        scanner.close();
     }
 }
