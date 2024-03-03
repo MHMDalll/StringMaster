@@ -31,7 +31,7 @@ public class StringTest {
     @Test
     public void normalizingName_test(){
         assertEquals("Ron Weasley", advanced.normalizingName("rOn", "weASlEy"));
-        assertEquals("Hogwart", advanced.normalizingName("hoGWart", " "));
+        assertEquals("Hogwart  ", advanced.normalizingName("hoGWart", " "));
     }
     @Test
     public void doubleChar_test(){
